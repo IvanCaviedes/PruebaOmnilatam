@@ -1,0 +1,24 @@
+{
+  "name": "pruebatecnicaomni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node frontendCars/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITSKY152/PruebaOmnilatam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITSKY152/PruebaOmnilatam/issues"
+  },
+  "homepage": "https://github.com/ITSKY152/PruebaOmnilatam#readme",
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.1"
+  }
+}
