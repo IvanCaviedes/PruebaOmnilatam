@@ -1,0 +1,21 @@
+<main>
+    <app-carousel></app-carousel>
+    <div class="row p-5 m-0">
+        <div class="col-12 col-md-6 mx-auto text-center">
+            <h2>{{title}}</h2>
+            <p>{{subtitle}}</p>
+            <hr class="divider">
+        </div>
+        <ul class="nav justify-content-end p-5 col-12 col-md-10 ">
+            <app-btnsearch></app-btnsearch>
+        </ul>
+        <section id="listcars">
+            <div class="row col-12 col-md-8 mx-auto m-0">
+                <div class="col-12 col-md-4 p-4" *ngFor="let item of carros;">
+                    <app-cards></app-cards>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<app-footer></app-footer>

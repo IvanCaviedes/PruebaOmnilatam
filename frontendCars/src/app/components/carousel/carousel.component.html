@@ -1,0 +1,33 @@
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" *ngFor="let item of carros; index as i"
+            [ngClass]="i ==0 ? 'active':''"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item" *ngFor="let item of carros; index as i" [ngClass]="i ==0 ? 'active':''" >
+            <img src="assets/img/banner{{i+1}}.jpg" class="d-block w-100 h-75" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+
+                <h1 class="font-weight-bold">Renta el carro de tus sueños</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quasi. Architecto
+                    obcaecati officiis modi quos omnis enim minima voluptatum asperiores?
+                </p>
+                <a (click)="scrollTo('listcars')" class="buttoncars btn rounded-circle mt-5">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </button>
+
+</div>

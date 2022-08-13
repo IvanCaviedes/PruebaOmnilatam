@@ -1,0 +1,33 @@
+.carousel-caption {
+    bottom: 20%;
+    background: rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.height-carousel {
+    height: 670px;
+}
+
+.carousel-control-prev {
+    margin-left: 100px;
+}
+
+.carousel-control-next {
+    margin-right: 100px;
+}
+
+.buttoncars {
+    background: orange;
+}
