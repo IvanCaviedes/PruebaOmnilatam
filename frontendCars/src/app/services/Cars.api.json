@@ -1,0 +1,82 @@
+[
+    {
+        "Id": 1,
+        "Photo": "https://www.motor.com.co/__export/1646259683854/sites/motor/img/2022/03/02/banner_prado_vx-1-1_1.jpg_406624570.jpg",
+        "Model": "Toyota Prado",
+        "Year": "2015",
+        "Brand": "Toyota",
+        "Price": 195000000,
+        "Desciption": "Incorpora el motor de 4.0L con el que eroga 271 caballos de fuerza y 281Nm, que va acoplada a una transmisión ECT-i Secuencial de seis relaciones. Su sistema de tracción es 4WD Full Time + Torsen + Diferencial Trasero Torsen LSD. La suspensión delantera viene con doble brazo oscilante con resortes helicoidales y amortiguadores telescópicos, mientras que la trasera tiene cuatro articulaciones y los mismos resortes de la primera. Dentro de la seguridad activa tenemos el sistema de frenos ABS y el reparto electrónico de frenada EBD. A su vez, en la seguridad encontramos: 7 airbags, sistema de asientos ISOFIX para niños, entre otros",
+        "color": "blanco"
+    },
+    {
+        "Id": 2,
+        "Photo": "https://www.motor.com.co/__export/1646260347794/sites/motor/img/2022/03/02/5caf89c87a873.jpeg_432483158.jpeg",
+        "Model": "Chevrolet Captiva",
+        "Year": "2019",
+        "Brand": "Chevrolet",
+        "Price": 53000000,
+        "Desciption": "Captiva Turbo llega para desafiar todas las expectativas de lo que se espera de un SUV. Más allá de su atractivo diseño, tiene el espacio suficiente para todo y todos, gracias a su capacidad para 5 o 7 pasajeros. Está equipada con tecnología superior y atributos avanzados de seguridad.",
+        "color": "rojo"
+    },
+    {
+        "Id": 3,
+        "Photo": "https://www.motor.com.co/__export/1646260468417/sites/motor/img/2022/03/02/suzuki_vitara.jpeg_1282495339.jpeg",
+        "Model": "Suzuki Vitara",
+        "Year": "1028",
+        "Brand": "Suzuki",
+        "Price": 59000000,
+        "Desciption": "La Nueva Suzuki Vitara está equipada con el sistema de tracción integral AllGrip ® de Suzuki, que es una evolución del sistema 4×4, donde el conductor puede desde la perilla central de programación (de fácil accionamiento) y según las condiciones del terreno y el tipo de manejo, configurar el vehículo ( sistema de inyección, sistema de tracción, Sistema de control de estabilidad, Caja de velocidades( solo en cajas automático), entre otros sistemas electrónicos del vehículo ) de acuerdo a los siguientes modos pre-programados.",
+        "color": "amarillo"
+    },
+    {
+        "Id": 4,
+        "Photo": "https://www.motor.com.co/__export/1644855294031/sites/motor/img/2022/02/14/20220214_101453798_601041b70d754_r_1611702727004_0-19-1024-533.jpeg_433406679.jpeg",
+        "Model": "Toyota Hilux",
+        "Year": "2020",
+        "Brand": "Toyota",
+        "Price": 53000000,
+        "Desciption": "Motor 2.7L / 164 hp / 245 Nm/ Mecánico 5 cambios / Vidrios eléctricos / Luces frontales y exploradoras halógenas / Espejos exteriores eléctricos con direccional /Aire acondicionado manual / Audio 8 con conectividad CP/AA / 2 parlantes / 7 airbags / Chasis",
+        "color": "rojo"
+    },
+    {
+        "Id": 5,
+        "Photo": "https://www.motor.com.co/__export/1646259856267/sites/motor/img/2022/03/02/vw_gol.jpeg_1282495339.jpeg",
+        "Model": "volkswagen Gol",
+        "Year": "2021",
+        "Brand": "volkswagen",
+        "Price": 63000000,
+        "Desciption": "Volkswagen Gol cuenta con el respaldo de una red robusta de concesionarios y talleres autorizados a nivel nacional, que cumplen con los estándares de calidad que caracterizan a nuestra marca. La garantía que le aplica a este vehículo es de 100.000 Km o 3 años, lo primero que ocurra. Si quieres conocer más detalles de nuestros servicios posventa, te invitamos a visitar la sección en el siguiente enlace",
+        "color": "blanco"
+    },
+    {
+        "Id": 6,
+        "Photo": "https://www.motor.com.co/__export/1646260546715/sites/motor/img/2022/03/02/10.jpeg_1282495339.jpeg",
+        "Model": "Mazda 2",
+        "Year": "2016",
+        "Brand": "Mazda",
+        "Price": 63000000,
+        "Desciption": "Mazda 2 Sport incluye un completo equipamiento en seguridad activa, pasiva y proactiva que cumple con los más altos estándares. Como equipamiento estándar incluye 6 airbags, frenos delanteros de disco ventilado equipados con sistemas ABS, EBD y BA, que proporcionan un frenado lineal, así como Control Dinámico de Estabilidad (DSC) y Sistema de Control de Tracción (TCS), entre otros",
+        "color": "rojo"
+    },
+    {
+        "Id": 7,
+        "Photo": "https://www.motor.com.co/__export/1650318138510/sites/motor/img/2022/04/18/tracker_1_1.jpg_305410121.jpg",
+        "Model": "Chevrolet Traker",
+        "Year": "2014",
+        "Brand": "Chevrolet",
+        "Price": 75000000,
+        "Desciption": "Con la llegada de la Tracker Turbo, no tienes que elegir entre tecnología, rendimiento o seguridad, porque tienes todo en un mismo lugar. Conoce la única camioneta que ofrece frenado de emergencia, 6 airbags, cargador inalámbrico y mucho más",
+        "color": "rojo"
+    },
+    {
+        "Id": 8,
+        "Photo": "https://www.motor.com.co/__export/1651530525748/sites/motor/img/2022/05/02/sandero2.jpg_305410121.jpg",
+        "Model": "Renault Sandero",
+        "Year": "2015",
+        "Brand": "Renault",
+        "Price": 39000000,
+        "Desciption": "El nuevo Renault SANDERO está equipado con cinturones de 3 puntos y apoyacabezas regulables en altura para todos los ocupantes. Adicionalmente, los cinturones delanteros son regulables en altura.",
+        "color": "azul"
+    }
+]

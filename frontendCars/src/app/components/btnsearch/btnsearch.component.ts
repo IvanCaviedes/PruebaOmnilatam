@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-btnsearch',
   templateUrl: './btnsearch.component.html',
   styleUrls: ['./btnsearch.component.css']
 })
-export class BtnsearchComponent implements OnInit {
+export class BtnsearchComponent {
+
+  @Output() searchAutoEvent = new EventEmitter<string>();
 
   constructor() { }
 
-  ngOnInit(): void {
+  onSubmitSearch(Model: NgForm) {
+    let { searchAuto } = Model.value
+    this.searchAutoEvent.emit(searchAuto)
   }
 
 }

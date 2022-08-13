@@ -1,0 +1,4 @@
+.sombra img{
+    -webkit-box-shadow: -4px 4px 13px -2px #0000009a;
+    box-shadow: -4px 4px 13px -2px #0000009a;
+}

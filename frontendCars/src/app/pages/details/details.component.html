@@ -1,12 +1,12 @@
-<app-detail-hero></app-detail-hero>
+<app-detail-hero [color]="carro.color"></app-detail-hero>
 <main>
     <div class="container">
         <div class="row p-5 m-0">
             <div class="col-12 col-md-4">
-                <app-detail-item></app-detail-item>
+                <app-detail-item [Carro]="carro"></app-detail-item>
             </div>
-            <div class="col-12 col-md-8">
-                <img src="assets/img/carro.jpg" class="d-block w-100 " alt="...">
+            <div class="col-12 col-md-8 sombra mt-5 mt-md-0">
+                <img [src]="carro.Photo" src="assets/img/carro.jpg" class="d-block w-100 " alt="...">
             </div>
         </div>
     </div>

@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { select, Store } from '@ngrx/store';
+import { Car } from 'src/app/services/Car.interface';
+import { Appstate, selectCars, selectCarsModel } from 'src/app/store/selectors/cars.selector';
+
+
 
 @Component({
   selector: 'app-home',
@@ -7,12 +12,35 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  title: string = "Best Cars in town for you"
+  subtitle: string = "Lorem ipsum dolor sit."
 
-  title:string = "Best Cars in town for you"
-  subtitle:string = "Lorem ipsum dolor sit."
+  carros: Car[] = []
 
-  carros: [number, number, number, number, number, number, number, number, number] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  constructor(
+    private store: Store<Appstate>
+  ) {
+    this.getAutos()
+  }
+
+  getAutos() {
+    this.store.pipe(select(selectCars)).subscribe(data => {
+      let dataForSort = [...data]
+      this.carros = dataForSort.sort((a, b) => a.Brand > b.Brand ? 1 : -1)
+    })
+  }
+
+  onSubmitSearch(searchAuto: string) {
+    console.log(searchAuto)
+    if (searchAuto) {
+      this.store.pipe(select(selectCarsModel, { Brand: searchAuto })).subscribe(data => {
+        this.carros = data
+      })
+    } else {
+      this.getAutos()
+    }
+
+  }
 
   ngOnInit(): void {
   }

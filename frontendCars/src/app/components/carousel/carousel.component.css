@@ -31,3 +31,16 @@
 .buttoncars {
     background: orange;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .carousel-control-prev {
+        margin-left: 0px;
+    }
+    
+    .carousel-control-next {
+        margin-right: 0px;
+    }
+    
+}
