@@ -4,15 +4,13 @@
             [ngClass]="i ==0 ? 'active':''"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item" *ngFor="let item of carros; index as i" [ngClass]="i ==0 ? 'active':''" >
+        <div class="carousel-item" *ngFor="let item of carros; index as i" [ngClass]="i ==0 ? 'active':''">
             <img src="assets/img/banner{{i+1}}.jpg" class="d-block w-100 h-75" alt="...">
             <div class="carousel-caption d-none d-md-block">
 
-                <h1 class="font-weight-bold">Renta el carro de tus sueños</h1>
+                <h1 class="font-weight-bold">{{item.title}}</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quasi. Architecto
-                    obcaecati officiis modi quos omnis enim minima voluptatum asperiores?
-                </p>
+                <p>{{item.subtitle}}</p>
                 <a (click)="scrollTo('listcars')" class="buttoncars btn rounded-circle mt-5">
                     <i class="fa-solid fa-arrow-down"></i>
                 </a>

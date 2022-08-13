@@ -2,7 +2,7 @@
     <img [src]="Photo" class="card-img-top" alt="...">
     <div class="card-body text-center">
         <h3 class="card-title text-secondary font-weight-bold">{{Model}}</h3>
-        <h4 class="font-weight-bold">{{Price}}</h4>
+        <h4 class="font-weight-bold">{{Price | currency:'USD'}} </h4>
         <p class="card-text">Año {{Year}}</p>
         <p class="card-text text-muted">{{Brand}}</p>
         <a [routerLink]="['/detail',Id]" class="readmore">*Ver Más*</a>

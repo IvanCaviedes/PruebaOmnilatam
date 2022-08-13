@@ -1,11 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cards',
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.css']
 })
-export class CardsComponent implements OnInit {
+export class CardsComponent{
   @Input() Id: number = 1;
   @Input() Photo: string = "";
   @Input() Model: string = "";
@@ -14,8 +14,5 @@ export class CardsComponent implements OnInit {
   @Input() Price: number = 1000000;
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

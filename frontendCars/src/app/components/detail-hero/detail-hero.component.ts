@@ -1,13 +1,15 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-detail-hero',
   templateUrl: './detail-hero.component.html',
   styleUrls: ['./detail-hero.component.css']
 })
-export class DetailHeroComponent implements OnInit {
+export class DetailHeroComponent  {
 
   @Input() color: string = "blanco";
+  @Input() Model: string = "Ford Ecosport";
+
   constructor() { }
 
   banners: any = {
@@ -24,8 +26,4 @@ export class DetailHeroComponent implements OnInit {
       img: "https://s1.1zoom.me/big0/829/Audi_A4_Avant_S_line_competition_plus_(Worldwide)_605410_1280x853.jpg"
     }
   }
-
-  ngOnInit(): void {
-  }
-
 }

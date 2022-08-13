@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { Car } from 'src/app/services/Car.interface';
 import { Appstate, selectCars, selectCarsModel } from 'src/app/store/selectors/cars.selector';
@@ -10,10 +10,10 @@ import { Appstate, selectCars, selectCarsModel } from 'src/app/store/selectors/c
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
-  title: string = "Best Cars in town for you"
-  subtitle: string = "Lorem ipsum dolor sit."
+  title: string = "Los mejores carros para ti"
+  subtitle: string = "Nuestra lista de vehiculos"
 
   carros: Car[] = []
 
@@ -41,8 +41,4 @@ export class HomeComponent implements OnInit {
     }
 
   }
-
-  ngOnInit(): void {
-  }
-
 }

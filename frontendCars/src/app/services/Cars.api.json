@@ -7,7 +7,8 @@
         "Brand": "Toyota",
         "Price": 195000000,
         "Desciption": "Incorpora el motor de 4.0L con el que eroga 271 caballos de fuerza y 281Nm, que va acoplada a una transmisión ECT-i Secuencial de seis relaciones. Su sistema de tracción es 4WD Full Time + Torsen + Diferencial Trasero Torsen LSD. La suspensión delantera viene con doble brazo oscilante con resortes helicoidales y amortiguadores telescópicos, mientras que la trasera tiene cuatro articulaciones y los mismos resortes de la primera. Dentro de la seguridad activa tenemos el sistema de frenos ABS y el reparto electrónico de frenada EBD. A su vez, en la seguridad encontramos: 7 airbags, sistema de asientos ISOFIX para niños, entre otros",
-        "color": "blanco"
+        "color": "blanco",
+        "visitar": "https://www.toyota.com.co/vehiculo/prado-2/"
     },
     {
         "Id": 2,
@@ -17,7 +18,8 @@
         "Brand": "Chevrolet",
         "Price": 53000000,
         "Desciption": "Captiva Turbo llega para desafiar todas las expectativas de lo que se espera de un SUV. Más allá de su atractivo diseño, tiene el espacio suficiente para todo y todos, gracias a su capacidad para 5 o 7 pasajeros. Está equipada con tecnología superior y atributos avanzados de seguridad.",
-        "color": "rojo"
+        "color": "rojo",
+        "visitar": "https://www.chevrolet.com.co/camionetas/captiva-camionetas-familiares?ppc=GOOGLE_700000001308209_71700000050514631_58700004941049278_p69463390784&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9almcecNZUAyRXBgAD5wbaqlBq5dDCLVl6EwvYwvi6PTUrt7rEoakqsaAvMNEALw_wcB&gclsrc=aw.ds"
     },
     {
         "Id": 3,
@@ -27,7 +29,8 @@
         "Brand": "Suzuki",
         "Price": 59000000,
         "Desciption": "La Nueva Suzuki Vitara está equipada con el sistema de tracción integral AllGrip ® de Suzuki, que es una evolución del sistema 4×4, donde el conductor puede desde la perilla central de programación (de fácil accionamiento) y según las condiciones del terreno y el tipo de manejo, configurar el vehículo ( sistema de inyección, sistema de tracción, Sistema de control de estabilidad, Caja de velocidades( solo en cajas automático), entre otros sistemas electrónicos del vehículo ) de acuerdo a los siguientes modos pre-programados.",
-        "color": "amarillo"
+        "color": "amarillo",
+        "visitar": "https://www.suzukiautos.com.co/modelos/s-cross?gclid=Cj0KCQjwl92XBhC7ARIsAHLl9alHPA5bypsTreqawxcuM_YXHPX4wpE2dnpxOn50T2ui9kzk5oRFXrQaAvuTEALw_wcB#estilo"
     },
     {
         "Id": 4,
@@ -37,7 +40,8 @@
         "Brand": "Toyota",
         "Price": 53000000,
         "Desciption": "Motor 2.7L / 164 hp / 245 Nm/ Mecánico 5 cambios / Vidrios eléctricos / Luces frontales y exploradoras halógenas / Espejos exteriores eléctricos con direccional /Aire acondicionado manual / Audio 8 con conectividad CP/AA / 2 parlantes / 7 airbags / Chasis",
-        "color": "rojo"
+        "color": "rojo",
+        "visitar": "https://www.toyota.com.co/vehiculo/hilux-3/"
     },
     {
         "Id": 5,
@@ -47,7 +51,8 @@
         "Brand": "volkswagen",
         "Price": 63000000,
         "Desciption": "Volkswagen Gol cuenta con el respaldo de una red robusta de concesionarios y talleres autorizados a nivel nacional, que cumplen con los estándares de calidad que caracterizan a nuestra marca. La garantía que le aplica a este vehículo es de 100.000 Km o 3 años, lo primero que ocurra. Si quieres conocer más detalles de nuestros servicios posventa, te invitamos a visitar la sección en el siguiente enlace",
-        "color": "blanco"
+        "color": "blanco",
+        "visitar": "https://www.ofertas-volkswagen.com/comprar-vehiculo-volkswagen-colombia-gol.html?m=adwords&ad=597326708771&kw=volkswagen%20gol&mt=p&nw=g&dev=c&pm=&tg=&ap=&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9anDtYwrsl6hdglI8Tyo8gE4AJ4oY4Olw0-1pJ_fM2Ov2WIAjXm8h1YaAlQREALw_wcB"
     },
     {
         "Id": 6,
@@ -57,7 +62,8 @@
         "Brand": "Mazda",
         "Price": 63000000,
         "Desciption": "Mazda 2 Sport incluye un completo equipamiento en seguridad activa, pasiva y proactiva que cumple con los más altos estándares. Como equipamiento estándar incluye 6 airbags, frenos delanteros de disco ventilado equipados con sistemas ABS, EBD y BA, que proporcionan un frenado lineal, así como Control Dinámico de Estabilidad (DSC) y Sistema de Control de Tracción (TCS), entre otros",
-        "color": "rojo"
+        "color": "rojo",
+        "visitar": "https://www.mazda.com.co/vehiculos/mazda-2-sedan/comparador/?utm_source=Google_SEM&utm_medium=CPCAON&utm_campaign=AON_MARCA&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9an9W3ilPMBE2P8rgt-R1SdRGEOL0grxoIGMuOMLN3bXdDJhfxa2e2MaAiF5EALw_wcB"
     },
     {
         "Id": 7,
@@ -67,7 +73,8 @@
         "Brand": "Chevrolet",
         "Price": 75000000,
         "Desciption": "Con la llegada de la Tracker Turbo, no tienes que elegir entre tecnología, rendimiento o seguridad, porque tienes todo en un mismo lugar. Conoce la única camioneta que ofrece frenado de emergencia, 6 airbags, cargador inalámbrico y mucho más",
-        "color": "rojo"
+        "color": "rojo",
+        "visitar": "https://www.chevrolet.com.co/camionetas/tracker-turbo-camioneta-suv?ppc=GOOGLE_700000001306721_71700000073718285_58700006397539942_p57769698843&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9amViqjv4qrd4e8-NF6FAp8Xwhj-zBBjX2C3Qi6OJRu0-TarN-MXr3AaArhxEALw_wcB&gclsrc=aw.ds"
     },
     {
         "Id": 8,
@@ -77,6 +84,7 @@
         "Brand": "Renault",
         "Price": 39000000,
         "Desciption": "El nuevo Renault SANDERO está equipado con cinturones de 3 puntos y apoyacabezas regulables en altura para todos los ocupantes. Adicionalmente, los cinturones delanteros son regulables en altura.",
-        "color": "azul"
+        "color": "azul",
+        "visitar":"https://www.renault.com.co/vehiculos/sandero.html?ORIGIN=sea_defensive&CAMPAIGN=co-es-r-l-def-model-sandero-ice-go-classic-model-sandero&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9akSa933hLQcbAIXhEwBXVM-JO1l9AR5nhIBh-FnB7kXgZvWih6tw0saAkVXEALw_wcB&gclsrc=aw.ds"
     }
 ]

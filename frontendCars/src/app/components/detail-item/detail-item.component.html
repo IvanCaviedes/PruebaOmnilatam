@@ -1,6 +1,6 @@
 <h3 class="card-title text-secondary font-weight-bold">{{Carro.Model}}</h3>
 <p class="card-text">Año {{Carro.Year}}</p>
 <p class="card-text">Modelo {{Carro.Brand}}</p>
-<p class="font-weight-bold">{{Carro.Price}}</p>
+<p class="font-weight-bold">{{Carro.Price | currency:'USD'}}</p>
 <p class="card-text text-justify">{{Carro.Desciption}}</p>
-<button class="btn btn-primary">Conoce más</button>
+<a [href]="Carro.visitar" target="_blank" class="btn btn-primary">Conoce más</a>

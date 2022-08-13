@@ -7,4 +7,5 @@ export interface Car {
     Price: number;
     Desciption: string;
     color: string;
+    visitar:string;
 }
