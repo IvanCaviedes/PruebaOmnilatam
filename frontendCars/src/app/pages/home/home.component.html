@@ -1,12 +1,12 @@
 <main>
     <app-carousel></app-carousel>
-    <div class="row p-5 m-0">
+    <div class="row p-2 p-md-5 m-0">
         <div class="col-12 col-md-6 mx-auto text-center">
             <h2>{{title}}</h2>
             <p>{{subtitle}}</p>
             <hr class="divider">
         </div>
-        <ul class="nav justify-content-end p-5 col-12 col-md-10 ">
+        <ul class="nav justify-content-center justify-content-md-end p-5 col-12 col-md-10 ">
             <app-btnsearch (searchAutoEvent)="onSubmitSearch($event)"></app-btnsearch>
         </ul>
         <section id="listcars">
